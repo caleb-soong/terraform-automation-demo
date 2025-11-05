@@ -1,0 +1,14 @@
+{
+  "name": "terraform-automation-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node backend/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
